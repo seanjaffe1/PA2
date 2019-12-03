@@ -32,7 +32,7 @@ You must implement the following methods:
 
 **M2**: Return the ratio of open triangles to closed triangles.
 
-**M3**: Return the top k open triangles. A triangle is given higher prioirty if it has a larger total edge weight. Store the triangles in a heap (see M7)
+**M3**: Return the top k open triangles. A triangle is given higher prioirty if it has a larger total edge weight. Store the triangles in a heap (see M7). This method should return the top-k trianlges in a string where each triangle is given by its nodes in ascending order of node-id, separated by commas, and its triangles in descending order of score, separated by semi-colons. Ex: '1,4,5;3,4,7'
 
 **M4**: (Early Deadline) Given a seed node with id i, and weight vector w, find the top k-skilled individuals around i.
 If the weight vector w = \[w1, w2, w3 ... wd] and the skill fector of a neighboring node f = \[f1, f2, ....\], then the prioirity of a node is given by dot(w, f) = w1f1 + w2f2 + .... + wdfd
