@@ -49,5 +49,12 @@ float GraphAnalyzer::jacardIndexOfTopKNeighborhoods(int nodeA, int nodeB, int k,
     return 0;
 };
 
+void GraphAnalyzer::remove(int nodeA) {
+};
+
+
+void GraphAnalyzer::remove(int nodeA, int nodeB) {
+};
+
 
 
